@@ -1,0 +1,32 @@
+.homePage{
+  height: 100%;
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+}
+.half{
+  height: 100%;
+  width: 50%;
+  background: rgb(147, 226, 255);
+}
+.food{
+  height: 100%;
+  width: 100%;
+  background-image: url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.getStarted {
+  font-family: 'Oswald', sans-serif;  
+  font-weight: 200;
+  height: 15%;
+  width: 45%;
+  border-radius: 20px;
+  border: 1px solid black;
+  color: white;
+  font-size: 35px;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+  font-weight: bold;
+  background: rgb(255, 62, 62);
+  cursor: pointer;
+}

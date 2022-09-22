@@ -1,0 +1,52 @@
+.cardContainer{
+  height: 125px;
+  width: 100%;
+  background: rgb(187, 237, 255);
+  border-bottom: 2px solid rgba(0, 0, 0, .6);
+  border-left: 2px solid rgba(0, 0, 0, .6);
+}
+.picHeader {
+  height: 100%;
+  width: 20%; 
+}
+.picDisplay{
+  height: 80%;
+  width: 80%;
+  background-image: url('./../bootsaddle-1024x576.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.desc{
+  height: 100%;
+  width: 40%;
+  color: black;
+  align-items: flex-start !important;
+}
+.desc h2, h3, h4{
+  margin: 0;
+  text-align: left;
+}
+.desc h3{
+  font-size: 14px;
+}
+.desc h4{
+  font-size: 12px;
+  color: rgb(253, 255, 132);
+  text-shadow: 0px 0px .5px black;
+}
+.info{
+  height: 100%;
+  width: 40%;
+}
+.info button {
+  height: 25%;
+  width: 40%; 
+  border-radius: 20px;
+  border: 1px solid black;
+  color: white;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+  font-weight: bold;
+  background: rgb(255, 62, 62);
+  cursor: pointer;
+}

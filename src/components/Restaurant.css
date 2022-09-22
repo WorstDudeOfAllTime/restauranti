@@ -1,0 +1,34 @@
+.restaurant {
+  height: 100%;
+  width: 100%;
+}
+.restaurantHalf {
+  height: 100%;
+  width: 50%;
+  background: rgb(147, 226, 255);
+}
+.restaurantInfo {
+  height: 35%;
+  width: 100%;
+  border-bottom: 2px solid rgba(0,0,0,.5)
+}
+.restPic {
+  height: 70%;
+  width: 100%;
+  background-image: url('./../bootsaddle-1024x576.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.restInfo{
+  height: 30%;
+  width: 100%;
+}
+.cart {
+  height: 65%;
+  width: 100%;
+}
+.menuHalf {
+  height: 100%;
+  width: 50%;
+}
