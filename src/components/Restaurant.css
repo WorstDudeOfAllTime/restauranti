@@ -4,7 +4,7 @@
 }
 .restaurantHalf {
   height: 100%;
-  width: 50%;
+  width: 35%;
   background: rgb(147, 226, 255);
 }
 .restaurantInfo {
@@ -30,5 +30,5 @@
 }
 .menuHalf {
   height: 100%;
-  width: 50%;
+  width: 65%;
 }

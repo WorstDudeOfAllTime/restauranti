@@ -1,0 +1,19 @@
+.cartContainer {
+  height: 100%;
+  width: 100%;
+}
+.cartHeader{
+  width: 90%;
+  justify-content: flex-start !important;
+}
+.balance {
+  width: 90%;
+  justify-content: flex-end !important;
+}
+.cart {
+  width: 100%;
+  height: 90%;
+  flex-wrap: wrap;
+  overflow: hidden;
+  overflow-y: auto;
+}

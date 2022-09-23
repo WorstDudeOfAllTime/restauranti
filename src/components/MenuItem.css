@@ -1,0 +1,57 @@
+.menuItemContainer {
+  width: 45%;
+  height: 18%;
+  border-radius: 8px;
+  margin: 5px 10px;
+  background: rgb(187, 237, 255);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+}
+.mealPic {
+  height: 90%;
+  width: 30%;
+  background-image: url('./burger.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10%;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+.mealInfo {
+  height: 90%;
+  width: 60%;
+  justify-content: flex-start !important;
+}
+.infoBottom {
+  width: 100%;
+  height: 90%;
+}
+.lowerHalf {
+  height: 100%;
+  width: 40%;
+}
+.lowLeft {
+  justify-content: flex-start !important;
+}
+.lowLeft h4 {
+  margin-left: 20px;
+}
+.lowRight {
+  justify-content: flex-end !important;
+}
+.lowRight h4 {
+  margin-right: 20px;
+}
+.addTo {
+  height: 10%;
+  width: 100%;
+  justify-content: flex-end !important;
+}
+.addTo button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  background: rgb(255, 62, 62);
+}

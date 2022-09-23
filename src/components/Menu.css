@@ -1,0 +1,19 @@
+.menuContainer{
+  height: 100%;
+  width: 100%;
+}
+.menuHeader{
+  width: 90%;
+  height: 10%;
+  justify-content: flex-start !important;
+  border-bottom: 2px solid rgba(0, 0, 0, .6);
+  margin-bottom: 10px;
+}
+.menuContent{
+  height: 90%;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: flex-start !important;
+  overflow: hidden;
+  overflow-y: auto;
+}
